@@ -6,8 +6,9 @@ import com.iteso.decorator.JavaIDE;
  * Created by rvillalobos on 4/14/16.
  */
 public class IntelliJIDE extends JavaIDE{
-    @Override
+
+    public String description = "IntelliJ IDE";
     public String start() {
-        return "started";
+        return "IntelliJ Started";
     }
 }
