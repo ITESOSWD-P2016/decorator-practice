@@ -1,4 +1,4 @@
-tu-browser
+tu-IDE
 =======
 
-Decorator pattern example
+Decorator pattern practice
