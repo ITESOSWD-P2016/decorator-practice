@@ -12,7 +12,7 @@ public class Scala extends PluginsDecorator {
 
     @Override
     public String start() {
-        return "starting IDE "+getDescription();
+        return ide.start()+ getDescription();
     }
 
     @Override

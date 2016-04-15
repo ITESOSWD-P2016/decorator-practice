@@ -11,6 +11,6 @@ public class AptanaStudioIDE extends JavaIDE{
     }
     @Override
     public String start() {
-        return "started";
+        return "starting";
     }
 }

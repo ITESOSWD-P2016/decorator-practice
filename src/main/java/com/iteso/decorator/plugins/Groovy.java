@@ -11,7 +11,7 @@ public class Groovy extends PluginsDecorator {
     public Groovy(JavaIDE ide){this.ide = ide;}
 
     @Override
-    public String start() { return "starting IDE "+getDescription();
+    public String start() {  return ide.start()+ getDescription();
     }
 
     @Override
