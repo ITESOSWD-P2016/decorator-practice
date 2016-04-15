@@ -3,11 +3,11 @@ package com.iteso.decorator.ides;
 import com.iteso.decorator.JavaIDE;
 
 /**
- * Created by rvillalobos on 4/14/16.
+ * Created by luis_ on 15/04/2016.
  */
-public class IntelliJIDE extends JavaIDE{
-    public IntelliJIDE(){
-        description = " Intellij";
+public class EclipseIDE extends JavaIDE {
+    public EclipseIDE(){
+        description = " Eclipse";
     }
     @Override
     public String start() {
