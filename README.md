@@ -1,4 +1,4 @@
-tu-taco
+tu-browser
 =======
 
 Decorator pattern example

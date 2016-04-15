@@ -7,12 +7,11 @@ package com.iteso.decorator;
  * Time: 12:41 PM
  * To change this template use File | Settings | File Templates.
  */
-public abstract class Taco {
-    public String description = "Any Taco";
+public abstract class JavaIDE {
+    public String description = "Any JavaIDE";
+
     public String getDescription(){
         return description;
     }
-    public abstract double cost();
-
-
+    public abstract String start();
 }
