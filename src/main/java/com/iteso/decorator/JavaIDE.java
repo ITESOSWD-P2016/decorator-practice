@@ -8,10 +8,11 @@ package com.iteso.decorator;
  * To change this template use File | Settings | File Templates.
  */
 public abstract class JavaIDE {
-    public String description = "Any JavaIDE";
+    public String description;
 
     public String getDescription(){
         return description;
     }
+    
     public abstract String start();
 }

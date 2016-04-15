@@ -2,13 +2,10 @@ package com.iteso.decorator.ides;
 
 import com.iteso.decorator.JavaIDE;
 
-/**
- * Created by rvillalobos on 4/14/16.
- */
-public class IntelliJIDE extends JavaIDE {
-	
-	public IntelliJIDE(){
-		description = "IntelliJ IDE";
+public class JCreatorJIDE extends JavaIDE {
+
+	public JCreatorJIDE(){
+		description = "JCreatorJ IDE";
 	}
 	
 	@Override

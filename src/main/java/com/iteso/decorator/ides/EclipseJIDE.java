@@ -2,17 +2,15 @@ package com.iteso.decorator.ides;
 
 import com.iteso.decorator.JavaIDE;
 
-/**
- * Created by rvillalobos on 4/14/16.
- */
-public class IntelliJIDE extends JavaIDE {
+public class EclipseJIDE extends JavaIDE {
 	
-	public IntelliJIDE(){
-		description = "IntelliJ IDE";
+	public EclipseJIDE(){
+		description = "Eclipse IDE";
 	}
 	
 	@Override
 	public String start() {
 		return "Starting " + description;
 	}
+
 }
