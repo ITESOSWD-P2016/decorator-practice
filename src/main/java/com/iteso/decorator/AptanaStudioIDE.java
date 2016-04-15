@@ -1,4 +1,4 @@
-package com.iteso.decorator.ides;
+package com.iteso.decorator;
 
 import com.iteso.decorator.JavaIDE;
 
