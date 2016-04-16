@@ -5,7 +5,7 @@ import com.iteso.decorator.JavaIDE;
 public class NetbeansJIDE extends JavaIDE {
 
 	public NetbeansJIDE(){
-		description = "NetbeansJ IDE";
+		description = "Netbeans IDE";
 	}
 	
 	@Override

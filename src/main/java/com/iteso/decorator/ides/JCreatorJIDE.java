@@ -5,7 +5,7 @@ import com.iteso.decorator.JavaIDE;
 public class JCreatorJIDE extends JavaIDE {
 
 	public JCreatorJIDE(){
-		description = "JCreatorJ IDE";
+		description = "JCreator IDE";
 	}
 	
 	@Override

@@ -17,6 +17,6 @@ public class LiveEditPlugin extends Plugins {
 	
 	@Override
 	public String start() {
-		return "starting: " + oJavaIDE.getDescription();
+		return "Starting " + oJavaIDE.getDescription();
 	}
 }
